@@ -84,3 +84,34 @@ button:hover {
     font-weight: bold;
     color: #2d3436;
 }
+
+@media (max-width: 480px) {
+    body {
+        padding: 20px;
+        font-size: 16px;
+    }
+
+    .container {
+        width: 100%;
+        padding: 20px;
+    }
+
+    input[type="number"],
+    input[type="text"] {
+        max-width: 100%;
+        font-size: 1rem;
+    }
+
+    form {
+        padding: 15px;
+    }
+
+    button {
+        width: 100%;
+        font-size: 1rem;
+    }
+
+    .result {
+        font-size: 1.1rem;
+    }
+}
